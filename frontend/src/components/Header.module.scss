@@ -1,0 +1,42 @@
+$primary-color: black;
+
+.header {
+  background-color: $primary-color;
+  padding: 10px;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+
+  .container {
+    display: flex;
+    align-items: center;
+  }
+
+  .title {
+    font-size: 24px;
+    margin-right: 20px;
+    color: white;
+  }
+
+  .navList {
+    list-style: none;
+    display: flex;
+    gap: 10px;
+    margin: 0;
+    padding: 0;
+
+    li {
+      font-size: 18px;
+
+      a {
+        text-decoration: none; // Remove underline
+        color: white; // Link color
+
+        &:hover {
+          text-decoration: underline; // Optional: underline on hover
+        }
+      }
+    }
+  }
+}
