@@ -8,7 +8,6 @@ function MyApp() {
     return (
         <>
             <Header/>
-            <BlogPage/>
         </>
     );
 }
