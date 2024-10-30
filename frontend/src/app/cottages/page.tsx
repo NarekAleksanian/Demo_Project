@@ -1,7 +1,7 @@
 'use client';
 
 import React from "react";
-import Header from "@/components/header";
+import Header from "@/components/header_dir/header";
 
 const BlogPage: React.FC = () => {
     return (
