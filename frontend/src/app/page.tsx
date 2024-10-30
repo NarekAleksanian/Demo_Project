@@ -1,14 +1,14 @@
 'use client';
 
 import Header from '@/components/header';
-import BlogPage from "@/app/blog/page";
+import Travel_form from "@/components/travel_forms/travel_form";
 
 
 function MyApp() {
     return (
         <>
             <Header/>
-            <BlogPage/>
+            <Travel_form/>
         </>
     );
 }
