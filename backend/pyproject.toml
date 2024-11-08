@@ -5,3 +5,4 @@ package-mode = false
 python = "^3.12"
 fastapi = "^0.115.4"
 pydantic-settings = "^2.6.1"
+uvicorn = {extras = ["standard"], version = "^0.32.0"}
