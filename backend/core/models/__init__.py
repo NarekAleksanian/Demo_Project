@@ -1,9 +1,9 @@
 __all__ = (
     "db_helper",
     "Base",
-    # "User"
+    "User"
 )
 
-from backend.core.models.db_helper import db_helper
-from backend.core.models.base import Base
-# from backend.core.models.user import User
+from core.models.db_helper import db_helper
+from core.models.base import Base
+from core.models.user import User
